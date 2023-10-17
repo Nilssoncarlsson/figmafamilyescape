@@ -1,0 +1,91 @@
+.HomePage {
+    font-family: Arial, sans-serif;
+    padding: 0 5%;
+  }
+  
+  .destinationSection, .hotelSection, .eventSection {
+    padding: 20px 0;
+  }
+  
+  .destinationContainer, .hotelContainer, .eventContainer {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .popular-destinations {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.destinations-list {
+    display: flex;
+    overflow-x: auto;
+}
+
+.destination-card {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.destination-card img {
+    width: 100%;
+    height: auto;
+}
+
+.destination-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.destination-card p {
+    color: #888;
+    margin-bottom: 10px;
+}
+
+  
+  /* Further CSS for other components and any additional styling would go here */
+  
+  /*navbar*/
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #fff; /* Change this to fit your desired color or gradient */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Modify as per your branding */
+}
+
+.search-bar {
+    flex-grow: 2;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.guest-selector, .date-picker {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee; /* Choose a color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.guest-selector:hover, .date-picker:hover {
+    background-color: #ddd;
+}
