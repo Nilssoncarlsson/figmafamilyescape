@@ -6,4 +6,4 @@ function RecommendedSection() {
       </div>
     );
   }
-  
+  export default RecommendedSection;

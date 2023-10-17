@@ -7,3 +7,4 @@ function DestinationSection() {
     );
   }
   
+  export default DestinationSection;

@@ -1,15 +1,14 @@
+// App.js
 import React from 'react';
+import HomePage from './HomePage';
 import './App.css';
-import HomePage from './homePage';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <HomePage /> {/* Lagg till din HomePage-komponent har */}
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <HomePage />
+        </div>
+    );
 }
 
 export default App;

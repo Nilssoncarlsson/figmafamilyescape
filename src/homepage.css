@@ -1,91 +1,162 @@
-.HomePage {
-    font-family: Arial, sans-serif;
-    padding: 0 5%;
+.header {
+    height: 210px;
+    width: 1748px;
   }
   
-  .destinationSection, .hotelSection, .eventSection {
-    padding: 20px 0;
+  .header .overlap {
+    background: linear-gradient(180deg, rgba(239, 221, 197, 0.3) 0%, rgba(255, 245.44, 245.44, 0) 100%);
+    height: 186px;
+    left: 33px;
+    position: relative;
+    top: 2px;
+    width: 1728px;
   }
   
-  .destinationContainer, .hotelContainer, .eventContainer {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
+  .header .logo {
+    height: 59px;
+    left: 38px;
+    position: absolute;
+    top: 73px;
+    width: 350px;
   }
-
-  .popular-destinations {
-    padding: 20px;
-    background-color: #fff;
-}
-
-.destinations-list {
-    display: flex;
-    overflow-x: auto;
-}
-
-.destination-card {
-    flex: 0 0 auto;
-    margin-right: 20px;
-    width: 150px;
-    text-align: center;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.destination-card img {
-    width: 100%;
-    height: auto;
-}
-
-.destination-card h3 {
-    margin: 10px 0;
-    font-size: 18px;
-}
-
-.destination-card p {
-    color: #888;
-    margin-bottom: 10px;
-}
-
   
-  /* Further CSS for other components and any additional styling would go here */
+  .header .login-instance {
+    height: 58px !important;
+    left: 1542px !important;
+    position: absolute !important;
+    top: 79px !important;
+    width: 54px !important;
+  }
   
-  /*navbar*/
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 30px;
-    background-color: #fff; /* Change this to fit your desired color or gradient */
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333; /* Modify as per your branding */
-}
-
-.search-bar {
-    flex-grow: 2;
-    padding: 10px 15px;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-}
-
-.guest-selector, .date-picker {
-    padding: 10px 15px;
-    margin-right: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #eee; /* Choose a color */
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.guest-selector:hover, .date-picker:hover {
-    background-color: #ddd;
-}
+  .header .search-bar {
+    border: 1px solid;
+    border-color: #dddddd;
+    border-radius: 30px;
+    box-shadow: 1px -1px 3px #00000040, -1px 1px 2px #00000040;
+    height: 68px;
+    left: 429px;
+    position: absolute;
+    top: 69px;
+    width: 840px;
+  }
+  
+  .header .overlap-group {
+    height: 68px;
+    position: relative;
+    top: -1px;
+    width: 842px;
+  }
+  
+  .header .nr {
+    height: 68px;
+    left: 572px;
+    position: absolute;
+    top: 0;
+    width: 270px;
+  }
+  
+  .header .div {
+    color: #00000099;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+  }
+  
+  .header .simple-line-icons {
+    height: 30px;
+    left: 21px;
+    position: absolute;
+    top: 21px;
+    width: 35px;
+  }
+  
+  .header .vem {
+    height: 68px;
+    left: 280px;
+    position: absolute;
+    top: 0;
+    width: 294px;
+  }
+  
+  .header .text-wrapper-2 {
+    color: #00000099;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 115px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+  }
+  
+  .header .img {
+    height: 30px;
+    left: 31px;
+    position: absolute;
+    top: 22px;
+    width: 30px;
+  }
+  
+  .header .vart {
+    height: 68px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 282px;
+  }
+  
+  .header .vector-2 {
+    height: 30px;
+    left: 35px;
+    position: absolute;
+    top: 22px;
+    width: 22px;
+  }
+  
+  .header .destination {
+    color: #00000099;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 81px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 14px;
+  }
+  
+  .header .line {
+    height: 40px;
+    left: 280px;
+    position: absolute;
+    top: 15px;
+    width: 1px;
+  }
+  
+  .header .line-2 {
+    height: 40px;
+    left: 571px;
+    position: absolute;
+    top: 15px;
+    width: 1px;
+  }
+  
+  .header .searchbutton-instance {
+    box-shadow: 1px 3px 4px #00000040 !important;
+    height: 68px !important;
+    left: 1296px !important;
+    position: absolute !important;
+    top: 73px !important;
+  }
+  
+  .header .design-component-instance-node {
+    margin-bottom: -0.5px !important;
+    margin-top: -3px !important;
+  }
+  

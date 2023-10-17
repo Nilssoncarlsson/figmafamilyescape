@@ -7,4 +7,4 @@ function FilterBar() {
       </div>
     );
   }
-  
+  export default FilterBar;

@@ -6,4 +6,4 @@ function PreviouslyVisitedSection() {
       </div>
     );
   }
-  
+  export default PreviouslyVisitedSection;
